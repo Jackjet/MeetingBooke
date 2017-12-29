@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingBooked", "MeetingBooked\MeetingBooked.csproj", "{DDE629FB-B9CC-4827-BF9D-763B33E984DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handler", "Handler\Handler.csproj", "{01EEA63B-3E1B-42E3-A700-61D0407502AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBUtility", "DBUtility\DBUtility.csproj", "{25EE2133-6489-431F-955B-5D4C8219D409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLL", "DLL\DLL.csproj", "{0AA2CFFC-9445-47E8-9A99-B662424DDA50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bll", "Bll\Bll.csproj", "{E6FB9F43-CF22-473E-94F8-41B359CD406F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingBookedWeb", "MeetingBookedWeb\MeetingBookedWeb.csproj", "{ADD93A23-61A1-454B-9BCD-70D16F476EBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{42D152C0-3EDC-42EC-B935-2D6B07572D9B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.1.211:8080/tfs/%E9%92%89%E9%92%89app
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Bll\\Bll.csproj
+		SccProjectName1 = Bll
+		SccLocalPath1 = Bll
+		SccProjectUniqueName2 = DBUtility\\DBUtility.csproj
+		SccProjectName2 = DBUtility
+		SccLocalPath2 = DBUtility
+		SccProjectUniqueName3 = DLL\\DLL.csproj
+		SccProjectName3 = DLL
+		SccLocalPath3 = DLL
+		SccProjectUniqueName4 = Handler\\Handler.csproj
+		SccProjectName4 = Handler
+		SccLocalPath4 = Handler
+		SccProjectUniqueName5 = MeetingBooked\\MeetingBooked.csproj
+		SccProjectName5 = MeetingBooked
+		SccLocalPath5 = MeetingBooked
+		SccProjectUniqueName6 = MeetingBookedWeb\\MeetingBookedWeb.csproj
+		SccProjectName6 = MeetingBookedWeb
+		SccLocalPath6 = MeetingBookedWeb
+		SccProjectUniqueName7 = Model\\Model.csproj
+		SccProjectName7 = Model
+		SccLocalPath7 = Model
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDE629FB-B9CC-4827-BF9D-763B33E984DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE629FB-B9CC-4827-BF9D-763B33E984DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE629FB-B9CC-4827-BF9D-763B33E984DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE629FB-B9CC-4827-BF9D-763B33E984DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EEA63B-3E1B-42E3-A700-61D0407502AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EEA63B-3E1B-42E3-A700-61D0407502AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EEA63B-3E1B-42E3-A700-61D0407502AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EEA63B-3E1B-42E3-A700-61D0407502AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25EE2133-6489-431F-955B-5D4C8219D409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25EE2133-6489-431F-955B-5D4C8219D409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25EE2133-6489-431F-955B-5D4C8219D409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25EE2133-6489-431F-955B-5D4C8219D409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA2CFFC-9445-47E8-9A99-B662424DDA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA2CFFC-9445-47E8-9A99-B662424DDA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA2CFFC-9445-47E8-9A99-B662424DDA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA2CFFC-9445-47E8-9A99-B662424DDA50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6FB9F43-CF22-473E-94F8-41B359CD406F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6FB9F43-CF22-473E-94F8-41B359CD406F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6FB9F43-CF22-473E-94F8-41B359CD406F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6FB9F43-CF22-473E-94F8-41B359CD406F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD93A23-61A1-454B-9BCD-70D16F476EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD93A23-61A1-454B-9BCD-70D16F476EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD93A23-61A1-454B-9BCD-70D16F476EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD93A23-61A1-454B-9BCD-70D16F476EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D152C0-3EDC-42EC-B935-2D6B07572D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D152C0-3EDC-42EC-B935-2D6B07572D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D152C0-3EDC-42EC-B935-2D6B07572D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D152C0-3EDC-42EC-B935-2D6B07572D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

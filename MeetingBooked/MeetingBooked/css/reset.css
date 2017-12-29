@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family:"微软雅黑";
+	font-style:normal;
+	font-weight:normal;
+	vertical-align: baseline;
+	color:#666;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family:"微软雅黑";
+}
+ol, ul {
+	list-style: none;
+}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:noraml;}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+abbr,acronym{border:0;}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:noraml;}
+a{text-decoration:none;color: #221e1f;}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block;}
+img{max-width:100%;height:auto;}
+/**/
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.center{margin:0 auto;}
+.clearfix{zoom:1}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+.dislb{display:inline-block;}
+.disb{display: block;}
+.none{display: none;}
+.pa{position:absolute;}
+.pf{position:fixed;}
+.pr{position:relative;}
+/*边距*/
+.mt20{margin-top: 20px;}
+.mb20{margin-bottom: 20px;}
+.ml20{margin-left: 20px;}
+.mr20{margin-right: 20px;}
+.pt20{padding-top: 20px;}
+.pb20{padding-bottom: 20px;}
+.pl20{padding-left: 20px;}
+.pr20{padding-right: 20px;}
+
+.mt10{margin-top: 10px;}
+.mb10{margin-bottom: 10px;}
+.ml10{margin-left: 10px;}
+.mr10{margin-right: 10px;}
+.pt10{padding-top: 10px;}
+.pb10{padding-bottom: 10px;}
+.pl10{padding-left: 10px;}
+.pr10{padding-right: 10px;}
+
+.mt5{margin-top: 5px;}
+.mb5{margin-bottom: 5px;}
+.ml5{margin-left: 5px;}
+.mr5{margin-right: 5px;}
+.pt5{padding-top: 5px;}
+.pb5{padding-bottom: 5px;}
+.pl5{padding-left: 5px;}
+.pr5{padding-right: 5px;}
+
+.p10{padding:10px}
+input[type="button"], input[type="submit"], input[type="reset"] {
+
+-webkit-appearance: none;
+
+}
+
+textarea,input{  -webkit-appearance: none;}   .button{ border-radius: 0; } 
